@@ -1,0 +1,9 @@
+student_marks = {"aarav":74 , "daksh":83 , "mohit":66 , "ryan":93 , "tanmay":81}
+def class_average as sum(student_marks["aarav"] , student_marks["daksh"] , student_marks["mohit"] , student_marks["ryan"]  student_marks["tanmay"] // 5)
+print(class_average)
+print("school topper:", max(student_marks))
+print("lowest marks:", min(student_marks))
+print(student_marks.get("ryan"))
+
+
+
